@@ -1,0 +1,19 @@
+org_name: nullstone
+name: aws-kms-key-usage
+friendly_name: KMS Key Usage
+description: Enables a Nullstone application to descrypt using an AWS KMS key in another account
+category: capability
+subcategory: secrets
+provider_types:
+    - aws
+platform: kms
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+    - server
+is_public: true
+tool_name: terraform
+include: []
+source_url: https://github.com/nullstone-modules/aws-kms-key-usage
